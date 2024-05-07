@@ -4,5 +4,12 @@
 > dotnet sln add src/AuctionService
 Project `src\AuctionService\AuctionService.csproj` added to the solution.
 
+
 dotnet tool list -g
-dotnet tool install dotnet-ef -g
+dotnet tool install dotnet-ef -g (This command needed to install before running dotnet ef command)
+
+ dotnet ef database drop
+
+
+At solution level add docker-compose.yml
+and write the docker commands using docker syntax
