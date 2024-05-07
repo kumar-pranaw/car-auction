@@ -1,0 +1,8 @@
+> dotnet --info
+> dotnet new sln
+> dotnet new webapi -o src/AuctionService
+> dotnet sln add src/AuctionService
+Project `src\AuctionService\AuctionService.csproj` added to the solution.
+
+dotnet tool list -g
+dotnet tool install dotnet-ef -g
